@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs UI Demo</title>
+</head>
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<body>
+    <div id="main">
+        <div id="root">
+            <!-- Tab items -->
+            <div class="tabs">
+                <div class="tab tab--active">
+                    <i class="fa-solid fa-house"></i>
+                    <h4 class="tab__name">
+                        Home
+                    </h4>
+                </div>
+                <div class="tab">
+                    <i class="fa-solid fa-circle-info"></i>
+                    <h4 class="tab__name">
+                        Infor
+                    </h4>
+                </div>
+                <div class="tab">
+                    <i class="fa-solid fa-children"></i>
+                    <h4 class="tab__name">
+                        Contact
+                    </h4>
+                </div>
+            </div>
+            <!-- Tab contents -->
+            <div class="tab__contents">
+                <div class="tab__content tab__content--active">
+                    <h3 class="tab__content__tit">
+                        This is Home tab
+                    </h3>
+                    <p class="tab__content__body">
+                        “Home means a future. Once we had a stable home, we could think beyond where we were going to live from week to week, and we could begin to look ahead to where we wanted to go. Home is the base where everything begins.”
+                        — Kelly
+                    </p>
+                </div>
+                <div class="tab__content">
+                    <h3 class="tab__content__tit">
+                        This is Infor tab
+                    </h3>
+                    <p class="tab__content__body">
+                        Information is the summarization of data. Technically, data are raw facts and figures that are processed into information, such as summaries and totals. But since information can also be the raw data for the next job or person, the two terms cannot be precisely defined, and both are used interchangeably.It may be helpful to view information the way it is structured and used, namely: data, text, spreadsheets, pictures, voice and video. Data are discretely defined fields. Text is a collection of words. 
+                    </p>
+                </div>
+                <div class="tab__content">
+                    <h3 class="tab__content__tit">
+                        This is Contact tab
+                    </h3>
+                    <p class="tab__content__body">
+                        When people or things are in contact, they are touching each other.
+                        They compared how these organisms behaved when left in contact with different materials. 
+                        The cry occurs when air is brought into contact with the baby's larynx. 
+                        There was no physical contact, nor did I want any. 
+                        This shows where the foot and shoe are in contact. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
